@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+fieldset {
+  background-color:rgba(46,110,110,255);
+}
+fieldset2 {
+  background-color: rgba(95,158,160,255);
+}
+legend {
+  background-color:#3e858b;
+  color: white;
+  font-size: 12;
+  padding: 10px 10px;
+}
+legend1 {
+  background-color: #3e858b;
+  color: white;
+  font-size: large;
+  padding: 20px 25px;
+  border-top: 10;
+  padding: fixed;
+}
+
+input {
+  margin: 5px;
+}
+
+</style>
+</head>
+<body style="background-color: #2f4f4f;">
+
+<br>
+
+<form action="/action_page.php">
+ <fieldset style=color:#1a1515;>
+  <legend>Personal Data</legend>
+  <br><br>
+   <fieldset>
+  <legend1 style="height: 10px; width: 50px;">Your Name</legend1><br><br><br>
+  <label for="fname"font-size=LARGER>First    Name  :</label>
+  <input type="text" id="fname" name="fname" placeholder="ex Mohamed"><br><br>
+  <label for="lname">Second Name:</label>
+  <input type="text" id="lname" name="lname"placeholder="ex Hashem"><br><br>
+ 
+ </fieldset>
+ <br>
+ <table style="width: 500px;; border: 1;  border: collapse 1px;background-color:rgba(46,110,110,255) ;"  width="90%">
+    <thead>
+
+    </thead>
+    <tbody>
+        <tr>
+            <td><label for="phone">Your phone:</label></td>
+                <td><input type="tel" id="phone" name="phone"/></td>
+               
+        </tr>
+        <tr>
+            <td><label for="email">Email:</label></td>
+                <td>
+                    <input type="email" id="email" name="email"/>
+                </td>
+                
+        </tr>
+        <tr>
+            <td><label for="password">Password:</label>
+            </td>
+            <td>
+                <input type="password" id="password" name="password"/>
+            </td>
+            
+        </tr>
+        <tr>
+            <td><label for="repassword">Repassword:</label>
+            </td>
+            <td>
+                <input type="password" id="repassword" name="repassword"/>
+            
+        </tr>
+    </tbody>
+</table>
+  <BR> 
+    <input type="radio" name="gender" id="male"><label for="male"value="male">MALE</label>
+<br>
+    <input type="radio" name="gender" id="female"value="female"><label for="female">FEMALE</label>
+    <BR></BR>
+    <input type="checkbox" name="Graduation" id="Student"value="Student"><label for="Student">Student</label>
+    <br>
+        <input type="checkbox" name="Graduation" id="Graduated"value="Graduated"><label for="Graduated">Graduated</label>
+    
+    <br><br<br><br>
+    <label for="unviversity">University:</label>
+    <select id="unviversity" name="university">
+      <option value="AUC">AUC</option>
+      <option value="GUC">GUC</option>
+      <option value="RUC">RUC</option>
+      <option value="BUC">BUC</option>
+    </select></BR><br>
+    <BUtton style="font-size: larger;background-color:#343434 ;color: #ececec;background-color: #343434;width: 90px;he;">Submit</BUtton>
+</fieldset>
+ 
+</form>
+
+</body>
+</html>
