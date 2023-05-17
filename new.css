@@ -1,0 +1,162 @@
+
+body{
+    background-color:  #532a7f;
+    font-family:  "Archivo", sans-serif;;
+}
+
+.paramain{display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 20px;
+    margin-bottom: 40px;
+    padding: 10px;
+    /* background-color: antiquewhite; */
+
+}
+.paracont{  float: left;
+    /* background-color: #EFEFEF; */
+    width: 800px;
+   
+
+
+}
+p{ font-family:  "Archivo", sans-serif;;
+    color: aliceblue;
+    text-align: center;
+}
+
+.headmain{display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    /* background-color: antiquewhite; */
+
+}
+.headcont{  float: left;
+
+}
+h1{ font-family:  "Archivo", sans-serif;;
+    color: aliceblue;
+}
+
+
+
+
+
+
+.main {
+    width: 620px;
+    height: auto ;
+    overflow: auto;
+    background-color:  #532a7f;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid white;
+  }
+  .hidden {
+    width: 620px;
+    height: auto ;
+    overflow: auto;
+    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+  }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .sub-div {
+    float: left;
+  width: 300px; /* Adjust the width as needed */
+  margin: 5px;
+  /* border: 1px solid black; */
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: left;
+  line-height: 10px; 
+  font-size: 50px;
+  }
+  .sub-div2{float: left;
+    width: 50px;
+    height: 50px;
+   color: azure;
+    /* border: 1px solid black; */
+   padding: auto;
+    box-sizing:border-box;
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 5px;
+
+  }
+  .text {
+    color: #EFEFEF;
+    position: relative;
+    /* border: 1px solid black; */
+   top: 20px;
+   left: 0px;
+   font-size: 22px;
+   margin: auto;
+   padding: auto;
+  }
+    
+  .hidden {
+    display: none;
+  }
+ 
+  
+
+  
+
+ 
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    /* background-color: blueviolet; */
+  }
+  
+.button-container {
+    float: left;
+}
+
+#toggleButton{
+    margin-left: auto;
+    margin-right: auto;background-color:  #EFEFEF;
+    width: 100px; height: 2cm;;font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+.center-container2 {
+    position: fixed;
+    bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10px;
+        background-color: aqua;
+        /* background-color: blueviolet; */
+}
+      
+.button-container2 {
+        float: left;
+        background-color: black;position: fixed;
+       
+}
+#showButton{
+    background-color:  #eee7e7;
+    width: 100px; height: 30px;;font-size: 20px;
+    color: rgb(15, 12, 12);
+    font-size: 15px;position: fixed;
+    
+  
+  }
